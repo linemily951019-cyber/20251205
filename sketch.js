@@ -260,7 +260,7 @@ function draw() {
 
   // 檢查角色1與角色2的距離
   const distance = abs(characterX - newCharX);
-  const proximityThreshold = 200; // 觸發問候的距離閾值
+  const proximityThreshold = 180; // 觸發問候的距離閾值
 
   // --- 角色2的狀態與繪製邏輯 ---
   if (isNewCharHit) {
